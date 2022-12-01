@@ -1,0 +1,40 @@
+html{
+    background: linear-gradient(180deg, rgba(0, 86, 184, 0.9) 25%, rgba(255,216,0, 0.9) 100%) no-repeat;
+    min-height: 100%;
+}
+
+body {
+    background: none;
+    padding: 50px;
+}
+
+#search-box{
+    text-align: center;
+    background: rgba(93, 162, 219, 0.952);
+    border-radius: 50px;
+    border-color: rgb(243, 215, 60);
+    margin-left: 40px;
+}
+
+.country-list{
+    list-style: none;
+}
+
+.country-list li{
+    display: flex;
+    align-items: center;
+}
+
+.country-list img{
+    width: 90px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.country-list h2{
+    font-size: 30px;
+}
+
+.country-info p{
+    font-size: 22px;
+}
